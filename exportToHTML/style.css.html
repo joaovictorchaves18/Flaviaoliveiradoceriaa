@@ -1,0 +1,233 @@
+<html>
+<head>
+<title>style.css</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #7a7e85;}
+.s1 { color: #bcbec4;}
+.s2 { color: #d5b778;}
+.s3 { color: #bcbec4;}
+.s4 { color: #bababa;}
+.s5 { color: #bcbec4;}
+.s6 { color: #2aacb8;}
+.s7 { color: #6aab73;}
+.s8 { color: #56a8f5;}
+.s9 { color: #cf8e6d;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+style.css</font>
+</center></td></tr></table>
+<pre><span class="s0">/* RESET */</span>
+<span class="s2">* </span><span class="s3">{</span>
+  <span class="s4">margin</span><span class="s5">: </span><span class="s6">0</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s6">0</span><span class="s3">;</span>
+  <span class="s4">box-sizing</span><span class="s5">: </span><span class="s7">border-box</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s2">body </span><span class="s3">{</span>
+  <span class="s4">font-family</span><span class="s5">: </span><span class="s7">'Segoe UI'</span><span class="s3">, </span><span class="s7">sans-serif</span><span class="s3">;</span>
+  <span class="s4">background-color</span><span class="s5">: </span><span class="s8">#F36F4E</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s7">white</span><span class="s3">;</span>
+  <span class="s4">line-height</span><span class="s5">: </span><span class="s6">1.6</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s0">/* NAV */</span>
+<span class="s3">.</span><span class="s2">navbar </span><span class="s3">{</span>
+  <span class="s4">background-color</span><span class="s5">: </span><span class="s8">#8B0000</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s6">15</span><span class="s7">px </span><span class="s6">0</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">nav-container </span><span class="s3">{</span>
+  <span class="s4">max-width</span><span class="s5">: </span><span class="s6">1100</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">margin</span><span class="s5">: </span><span class="s7">auto</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s6">0 20</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">display</span><span class="s5">: </span><span class="s7">flex</span><span class="s3">;</span>
+  <span class="s4">align-items</span><span class="s5">: </span><span class="s7">center</span><span class="s3">;</span>
+  <span class="s4">justify-content</span><span class="s5">: </span><span class="s7">space-between</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">nav-logo </span><span class="s3">{</span>
+  <span class="s4">height</span><span class="s5">: </span><span class="s6">60</span><span class="s7">px</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">nav-menu </span><span class="s3">{</span>
+  <span class="s4">list-style</span><span class="s5">: </span><span class="s7">none</span><span class="s3">;</span>
+  <span class="s4">display</span><span class="s5">: </span><span class="s7">flex</span><span class="s3">;</span>
+  <span class="s4">gap</span><span class="s5">: </span><span class="s6">20</span><span class="s7">px</span><span class="s3">;</span>
+  
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">nav-menu li a </span><span class="s3">{</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s7">white</span><span class="s3">;</span>
+  <span class="s4">text-decoration</span><span class="s5">: </span><span class="s7">none</span><span class="s3">;</span>
+  <span class="s4">font-weight</span><span class="s5">: </span><span class="s7">bold</span><span class="s3">;</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s6">16</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">transition</span><span class="s5">: </span><span class="s7">color </span><span class="s6">0.3</span><span class="s7">s</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">nav-menu li a</span><span class="s5">:</span><span class="s2">hover </span><span class="s3">{</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#F9D4B7</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s0">/* HERO */</span>
+<span class="s3">.</span><span class="s2">hero </span><span class="s3">{</span>
+  <span class="s4">text-align</span><span class="s5">: </span><span class="s7">center</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s6">80</span><span class="s7">px </span><span class="s6">20</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">max-width</span><span class="s5">: </span><span class="s6">800</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">margin</span><span class="s5">: </span><span class="s7">auto</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">hero h1 </span><span class="s3">{</span>
+  <span class="s4">font-family</span><span class="s5">: </span><span class="s7">'Pacifico'</span><span class="s3">, </span><span class="s7">cursive</span><span class="s3">;</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s6">42</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">margin-bottom</span><span class="s5">: </span><span class="s6">20</span><span class="s7">px</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">hero p </span><span class="s3">{</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s6">18</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">margin-bottom</span><span class="s5">: </span><span class="s6">30</span><span class="s7">px</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">btn </span><span class="s3">{</span>
+  <span class="s4">background-color</span><span class="s5">: </span><span class="s8">#ffffff</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#8B0000</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s6">12</span><span class="s7">px </span><span class="s6">30</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s6">16</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">text-decoration</span><span class="s5">: </span><span class="s7">none</span><span class="s3">;</span>
+  <span class="s4">border-radius</span><span class="s5">: </span><span class="s6">30</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">transition</span><span class="s5">: </span><span class="s6">0.3</span><span class="s7">s</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">btn</span><span class="s5">:</span><span class="s2">hover </span><span class="s3">{</span>
+  <span class="s4">background-color</span><span class="s5">: </span><span class="s8">#FFD4C3</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s0">/* AVALIAÇÕES */</span>
+<span class="s3">.</span><span class="s2">avaliacoes </span><span class="s3">{</span>
+  <span class="s4">background-color</span><span class="s5">: </span><span class="s8">#fff3ee</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#8B0000</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s6">60</span><span class="s7">px </span><span class="s6">20</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">text-align</span><span class="s5">: </span><span class="s7">center</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">avaliacoes h2 </span><span class="s3">{</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s6">28</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">margin-bottom</span><span class="s5">: </span><span class="s6">40</span><span class="s7">px</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">avaliacao </span><span class="s3">{</span>
+  <span class="s4">background</span><span class="s5">: </span><span class="s8">#ffffff</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s6">20</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">margin</span><span class="s5">: </span><span class="s6">10</span><span class="s7">px auto</span><span class="s3">;</span>
+  <span class="s4">max-width</span><span class="s5">: </span><span class="s6">600</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">border-radius</span><span class="s5">: </span><span class="s6">8</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">font-style</span><span class="s5">: </span><span class="s7">italic</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#333</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s0">/* CARDÁPIO */</span>
+<span class="s3">.</span><span class="s2">cardapio </span><span class="s3">{</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s6">40</span><span class="s7">px </span><span class="s6">20</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">max-width</span><span class="s5">: </span><span class="s6">1000</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">margin</span><span class="s5">: </span><span class="s7">auto</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#4B2C20</span><span class="s3">;</span>
+  <span class="s4">background-color</span><span class="s5">: </span><span class="s8">#fff3ee</span><span class="s3">;</span>
+  <span class="s4">border-radius</span><span class="s5">: </span><span class="s6">8</span><span class="s7">px</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">cardapio h1 </span><span class="s3">{</span>
+  <span class="s4">text-align</span><span class="s5">: </span><span class="s7">center</span><span class="s3">;</span>
+  <span class="s4">font-family</span><span class="s5">: </span><span class="s7">'Pacifico'</span><span class="s3">, </span><span class="s7">cursive</span><span class="s3">;</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s6">36</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#8B0000</span><span class="s3">;</span>
+  <span class="s4">margin-bottom</span><span class="s5">: </span><span class="s6">20</span><span class="s7">px</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">cardapio h2 </span><span class="s3">{</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s6">26</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">margin-top</span><span class="s5">: </span><span class="s6">40</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#8B0000</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">cardapio h3 </span><span class="s3">{</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s6">20</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">margin-top</span><span class="s5">: </span><span class="s6">25</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#BF3B1A</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">cardapio ul </span><span class="s3">{</span>
+  <span class="s4">list-style</span><span class="s5">: </span><span class="s7">none</span><span class="s3">;</span>
+  <span class="s4">padding-left</span><span class="s5">: </span><span class="s6">0</span><span class="s3">;</span>
+  <span class="s4">margin-top</span><span class="s5">: </span><span class="s6">10</span><span class="s7">px</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">cardapio li </span><span class="s3">{</span>
+  <span class="s4">background-color</span><span class="s5">: </span><span class="s8">#ffffff</span><span class="s3">;</span>
+  <span class="s4">margin</span><span class="s5">: </span><span class="s6">8</span><span class="s7">px </span><span class="s6">0</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s6">10</span><span class="s7">px </span><span class="s6">15</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">border-radius</span><span class="s5">: </span><span class="s6">6</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">box-shadow</span><span class="s5">: </span><span class="s6">0 1</span><span class="s7">px </span><span class="s6">3</span><span class="s7">px </span><span class="s2">rgba</span><span class="s3">(</span><span class="s6">0</span><span class="s3">,</span><span class="s6">0</span><span class="s3">,</span><span class="s6">0</span><span class="s3">,</span><span class="s6">0.1</span><span class="s3">);</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#333</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s0">/* FOOTER */</span>
+<span class="s2">footer </span><span class="s3">{</span>
+  <span class="s4">text-align</span><span class="s5">: </span><span class="s7">center</span><span class="s3">;</span>
+  <span class="s4">background-color</span><span class="s5">: </span><span class="s8">#8B0000</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s6">20</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s6">14</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s7">white</span><span class="s3">;</span>
+  <span class="s4">margin-top</span><span class="s5">: </span><span class="s6">40</span><span class="s7">px</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s2">footer a </span><span class="s3">{</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#FFD4C3</span><span class="s3">;</span>
+  <span class="s4">text-decoration</span><span class="s5">: </span><span class="s7">none</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s2">footer a</span><span class="s5">:</span><span class="s2">hover </span><span class="s3">{</span>
+  <span class="s4">text-decoration</span><span class="s5">: </span><span class="s7">underline</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s0">/* RESPONSIVO */</span>
+<span class="s9">@media </span><span class="s3">(</span><span class="s4">max-width</span><span class="s5">: </span><span class="s6">768</span><span class="s7">px</span><span class="s3">) {</span>
+  <span class="s3">.</span><span class="s2">nav-menu </span><span class="s3">{</span>
+    <span class="s4">flex-direction</span><span class="s5">: </span><span class="s7">column</span><span class="s3">;</span>
+    <span class="s4">gap</span><span class="s5">: </span><span class="s6">10</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s3">.</span><span class="s2">hero h1 </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s6">32</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s3">.</span><span class="s2">hero p </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s6">16</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s3">.</span><span class="s2">btn </span><span class="s3">{</span>
+    <span class="s4">padding</span><span class="s5">: </span><span class="s6">10</span><span class="s7">px </span><span class="s6">20</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s3">.</span><span class="s2">avaliacao </span><span class="s3">{</span>
+    <span class="s4">padding</span><span class="s5">: </span><span class="s6">15</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s3">.</span><span class="s2">cardapio h1 </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s6">28</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s3">.</span><span class="s2">cardapio h2 </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s6">22</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s3">.</span><span class="s2">cardapio li </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s6">15</span><span class="s7">px</span><span class="s3">;</span>
+  <span class="s3">}</span>
+<span class="s3">}</span>
+</pre>
+</body>
+</html>
